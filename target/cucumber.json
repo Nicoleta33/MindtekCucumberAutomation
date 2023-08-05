@@ -1,0 +1,132 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Logging in to app",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "User navigates to application Elar Logistic",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User logs in with user name \"student@mindtekbootcamp.com\" and  password \"ilovejava\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User clicks on login in btn",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-07-04T00:09:42.121Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1013000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Validating range functionality for searched item",
+        "description": "",
+        "id": "validate-search-engine-functionality;validating-range-functionality-for-searched-item",
+        "after": [
+          {
+            "result": {
+              "duration": 10000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10000,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User select range over 1000.00",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13000,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "User validates range for items over 1000.00",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@elarLogistics"
+          },
+          {
+            "name": "@test22"
+          }
+        ]
+      }
+    ],
+    "name": "Validate search engine functionality",
+    "description": "",
+    "id": "validate-search-engine-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/ElarLogistics.feature",
+    "tags": [
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@elarLogistics",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 13
+        }
+      }
+    ]
+  }
+]
